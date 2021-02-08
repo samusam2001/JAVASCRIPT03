@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="col-6">
+            <h2>BT01: Tìm ngày tháng năm ngày tiếp theo</h2>
+            <form>
+                <div class="form-group">
+                    <label for="inputNgay">Nhập Ngày</label>
+                    <input type="text" class="form-control" id="inputNgay">
+                </div>
+                <div class="form-group">
+                    <label for="inputThang">Nhập Tháng</label>
+                    <input type="text" class="form-control" id="inputThang">
+                </div>
+                <div class="form-group">
+                    <label for="inputNam">Nhập Năm</label>
+                    <input type="text" class="form-control" id="inputNam">
+                </div>
+                <button id="btnTim" type="submit" class="btn btn-primary">Tìm</button>
+                <p id="txtTim"></p>
+            </form>        
+        </div>
+
+        <hr/>
+        <div class="col-6">
+            <h2>BT02: Tìm tháng đó có bao nhiêu ngày</h2>
+            <form>
+                <div class="form-group">
+                    <label for="inputMonth">Nhập Tháng</label>
+                    <input type="text" class="form-control" id="inputMonth">
+                </div>
+                <div class="form-group">
+                    <label for="inputYear">Nhập Năm</label>
+                    <input type="text" class="form-control" id="inputYear">
+                </div>
+                <button id="btnTinh" type="submit" class="btn btn-primary">Tính</button>
+                <p id="txtTinh"></p>
+            </form>        
+        </div>
+
+        <hr/>
+        <div class="col-6">
+            <h2>BT03: Đọc ra 3 số nguyên</h2>
+            <form>
+                <div class="form-group">
+                    <label for="inputNum">Nhập Số</label>
+                    <input type="text" class="form-control" id="inputNum">
+                </div>
+                <button id="btnDoc" type="submit" class="btn btn-primary">Đọc</button>
+                <p id="txtDoc"></p>
+            </form>        
+        </div>
+
+        <hr/>
+        <div class="col-6">
+            <h2>BT04: Tìm tọa độ xa nhất</h2>
+            <form class="needs-validation">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="inputToaDo">Nhập Tọa Độ</label>
+                        <input type="text" class="form-control" id="inputToaDo">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col-md-6">
+                        <label for="inputSV1">Nhập Tên SV 1</label>
+                        <input type="text" class="form-control" id="inputTenSV1">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputSV1">Nhập Tọa Độ SV 1</label>
+                        <input type="text" class="form-control" id="inputSV1">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col-md-6">
+                        <label for="inputSV2">Nhập Tên SV 2</label>
+                        <input type="text" class="form-control" id="inputTenSV2">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputSV1">Nhập Tọa Độ SV 2</label>
+                        <input type="text" class="form-control" id="inputSV2">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col-md-6">
+                        <label for="inputSV3">Nhập Tên SV 3</label>
+                    <input type="text" class="form-control" id="inputTenSV3">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputSV1">Nhập Tọa Độ SV 3</label>
+                        <input type="text" class="form-control" id="inputSV3">
+                    </div>
+                </div>
+                <button id="btnXaNhat" type="submit" class="btn btn-primary">Tìm Tọa Độ Xa Nhất</button>
+                <p id="txtXaNhat"></p>
+            </form>        
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>
